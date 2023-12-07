@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/dialogs"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:src="@drawable/update" />
+
+    <EditText
+        android:id="@+id/etNombreProducto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textStyle="italic"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:hint="Nombre del producto a actualizar"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/etNuevoPrecio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:hint="Nuevo precio"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/etNuevaCantidad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:hint="Nueva cantidad"
+        android:inputType="number" />
+
+</LinearLayout>
